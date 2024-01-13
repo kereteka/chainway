@@ -32,10 +32,10 @@ const inlineStyles = {
 const ComingSoon = () => {
   return (
     <div
-      className=" w-[70%] flex flex-col py-6 px-8 justify-center items-start gap-8 text-white mx-auto mb-16"
+      className=" md:w-[70%] flex flex-col py-6 px-8 justify-center items-start gap-8 text-white mx-auto mb-16"
       style={inlineStyles}
     >
-      <div className=" flex w-full justify-between items-end ">
+      <div className=" flex w-full justify-between items-end  ">
         <div className="w-[280px] h-28 flex flex-col justify-between gap-4 ">
           <h2 className="text-xl font-bold ">Coming Soon</h2>
           <div className="flex text-md justify-between  w-full">

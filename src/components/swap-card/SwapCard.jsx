@@ -12,7 +12,7 @@ const SwapCard = ({ type, network, balance, networkName, tokenName }) => {
       className=" flex flex-col items-start justify-between py-4 px-6 gap-4 text-white"
       style={inlineStyles}
     >
-      <div className="w-[372px] flex items-end px-4 gap-4">
+      <div className="w-[300px] md:w-[372px] flex items-end px-4 gap-4">
         <div className="flex-1">{type}</div>
         <div className="flex flex-col items-end opacity-[0.6]">
           <div className="text-xs">Network</div>
@@ -63,7 +63,7 @@ const SwapCard = ({ type, network, balance, networkName, tokenName }) => {
           </div>
         </div>
       </div>
-      <div className="w-[372px] flex flex-col items-start border border-white border-opacity-20 gap-4 p-3 px-4">
+      <div className="w-[300px] md:w-[372px] flex flex-col items-start border border-white border-opacity-20 gap-4 p-3 px-4">
         <div className="flex justify-between items-center self-stretch text-sm">
           <div className="opacity-[0.6]">
             {balance}

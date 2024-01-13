@@ -23,7 +23,7 @@ const Footer = () => {
         >
           <div className="flex w-full justify-between items-center gap-3 mr-auto">
             <span>Offex</span>
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center">
               {loggedInFooterLinks.map((link, index) => (
                 <Link key={index} to={link.path} className=" no-underline">
                   {link.name}
