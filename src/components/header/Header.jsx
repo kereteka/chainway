@@ -40,7 +40,7 @@ const Header = () => {
         </div>
       ) : (
         <div
-          className=" flex justify-between items-center mx-auto w-full md:w-2/3 py-4 px-8 text-white"
+          className="flex justify-between items-center mx-auto w-full md:w-2/3 py-4 px-2 md:px-8 text-white"
           style={gradientStyle}
         >
           <span className="text-[#D1FAE5]">Offex</span>

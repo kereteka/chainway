@@ -85,7 +85,7 @@ const HomePage = () => {
           <h2 className="text-xl font-bold mb-2">05</h2>
         </div>
       </div> */}
-      <div className="flex flex-col md:flex-row justify-center items-start gap-2">
+      <div className="flex flex-col md:flex-row justify-center items-start gap-2 mx-auto">
         <div
           className="w-[360px] h-[208px] flex flex-col justify-between items-start self-stretch py-4 px-6 text-white "
           style={inlineStyles}
